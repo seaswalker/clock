@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>一只破闹钟</title>
+    <link rel="stylesheet" href="css/clock.css"/>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+			<img src="images/logo.png" />
+		</div>
+		<hr />
+        <div class="left">
+			<!--闹钟图标-->
+            <img src="images/alarm_no.png" alt="闹钟" id="alarm"/>
+            <!--当前时间显示-->
+            <div id="time-show"></div>
+        </div>
+        <div class="right">
+            <div class="set">
+                <div class="right-title">闹钟设定:</div>
+                <div>
+                    <select id="hour-select"></select><span class="right-text"> 时 </span>
+                    <select id="min-select">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                        <option>32</option>
+                        <option>33</option>
+                        <option>34</option>
+                        <option>35</option>
+                        <option>36</option>
+                        <option>37</option>
+                        <option>38</option>
+                        <option>39</option>
+                        <option>40</option>
+                        <option>41</option>
+                        <option>42</option>
+                        <option>43</option>
+                        <option>44</option>
+                        <option>45</option>
+                        <option>46</option>
+                        <option>47</option>
+                        <option>48</option>
+                        <option>49</option>
+                        <option>50</option>
+                        <option>51</option>
+                        <option>52</option>
+                        <option>53</option>
+                        <option>54</option>
+                        <option>55</option>
+                        <option>56</option>
+                        <option>57</option>
+                        <option>58</option>
+                        <option>59</option>
+                    </select><span class="right-text"> 分 </span>
+                    <img src="images/set.png" alt="设定闹钟" id="set-alarm" />
+                </div>
+            </div>
+            <div class="list">
+                <div class="right-title">闹钟列表:</div>
+                <ul id="alarm-list"></ul>
+            </div>
+            <div class="music">
+                <div class="right-title">铃声:</div>
+                <ul id="music-list">
+                   <li class="li-unchosed" name="1">
+                       <span class="music-name">Beyond-海阔天空</span>
+                       <span class="music-icon-unchosed"></span>
+                   </li>
+                   <li name="2">
+                       <span class="music-name">Lene Marlin-A Place Nearby</span>
+                       <span class="music-icon"></span>
+                   </li>
+                    <li class="li-unchosed" name="3">
+                        <span class="music-name">Avril Lavigne-Wish You Were Here</span>
+                        <span class="music-icon-unchosed"></span>
+                    </li>
+                    <li class="li-unchosed" name="4">
+                        <span class="music-name">Groove Coverage-Far away from home</span>
+                        <span class="music-icon-unchosed"></span>
+                    </li>
+                    <li class="li-unchosed" name="5">
+                        <span class="music-name">M2M-Pretty Boy</span>
+                        <span class="music-icon-unchosed"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">Clock by skywalker.</div>
+    </div>
+</body>
+<script type="text/javascript" src="js/tips.js"></script>
+<script type="text/javascript" src="js/clock.js"></script>
+</html>

@@ -1,0 +1,146 @@
+.main {
+    width: 980px;
+    margin: 0px auto 0px;
+}
+hr {
+	border: 0;
+	height: 5px;
+	background-color: #dfe2e8;
+	margin-top: 30px;
+}
+.header {
+    height: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+/*左侧闹钟*/
+.left {
+	height: 300px;
+	width: 300px;
+	margin-top: 40px;
+	background-image: url(../images/clock.png);
+    float: left;
+}
+/*钟形图标*/
+#alarm {
+    width: 60px;
+    position: relative;
+    left: 120px;
+    top: 75px;
+}
+/*时间显示*/
+#time-show {
+    position: relative;
+    width: 190px;
+    height: 40px;
+    left: 55px;
+    top: 90px;
+    line-height: 40px;
+    text-align: center;
+    font-family: "Lucida Grande", Lucida Sans Unicode, Hiragino Sans GB, WenQuanYi Micro Hei, Verdana, Aril, sans-serif;
+    font-size: 28px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+.right {
+    width: 640px;
+    margin-left: 40px;
+    margin-top: 40px;
+    float: left;
+}
+.set, .list, .music {
+    padding-left: 100px;
+}
+.right-title {
+    color: #87C03D;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.right-text {
+    color: #122C3D;
+}
+/*设定闹钟按钮*/
+#set-alarm {
+    width: 20px;
+    cursor: pointer;
+    vertical-align: middle;
+    float: right;
+    margin-right: 20px;
+}
+.list, .music {
+    margin-top: 20px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#alarm-list li {
+    height: 30px;
+    line-height: 30px;
+    box-shadow : 1px 1px 3px #aaaaaa;
+    text-align: center;
+    margin-top: 10px;
+}
+.alarm-item {
+    font-family: "Lucida Grande", Lucida Sans Unicode, Hiragino Sans GB, WenQuanYi Micro Hei, Verdana, Aril, sans-serif;
+    font-size: 16px;
+}
+.alarm-icon {
+    width: 20px;
+    vertical-align: text-top;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+/*取消设定按钮*/
+.del_alarm {
+    width: 20px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+/*铃声列表*/
+#music-list {
+    margin-top: 10px;
+}
+#music-list li {
+    border-bottom: 1px #dfe2e8 solid;
+    margin-top: 5px;
+    height: 25px;
+    line-height: 25px;
+}
+/*未使用的铃声所在的li*/
+.li-unchosed {
+    cursor: pointer;
+}
+/*铃声名称*/
+.music-name {
+    font-family: "Lucida Grande", Lucida Sans Unicode, Hiragino Sans GB, WenQuanYi Micro Hei, Verdana, Aril, sans-serif;
+}
+.music-icon, .music-icon-unchosed {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    float: right;
+    margin-right: 20px;
+    vertical-align: text-top;
+}
+/*未使用的铃声*/
+.music-icon-unchosed {
+    background-image: url(../images/music_unchosed.png);
+}
+/*正在使用的铃声*/
+.music-icon {
+    background-image: url(../images/music.png);
+}
+/*脚*/
+.footer {
+    text-align: center;
+    color: #87C03D;
+    font-family: "Lucida Grande", Lucida Sans Unicode, Hiragino Sans GB, WenQuanYi Micro Hei, Verdana, Aril, sans-serif;
+    clear: both;
+    margin-top: 500px;
+}
